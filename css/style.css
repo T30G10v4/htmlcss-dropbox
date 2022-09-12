@@ -51,6 +51,13 @@ p {
 
 }
 
+.justify-content-space-between
+{
+
+  justify-content: space-between;
+
+}
+
 /*POSITION PARTS*/
 .position-absolute {
 
@@ -110,6 +117,14 @@ p {
 
 }
 
+/*LISTS*/
+
+ul {
+
+  list-style-type: none;
+
+}
+
 /*HEADER*/
 header {
 
@@ -117,6 +132,15 @@ header {
   width: 100%;
 
   background-color: aquamarine;
+
+}
+
+/*HEADER-LEFT*/
+
+.header-left li,
+.header-right li {
+
+  display: inline-block;
 
 }
 
