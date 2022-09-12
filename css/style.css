@@ -155,22 +155,6 @@ header {
   border: 1px solid black;
 }
 
-#jumbotron .title {
-
-  width: 80%;
-  margin: 0 auto;
-  height: 100px;
-  background-color: black;
-
-}
-
-.jumbocontent {
-
-  width: 80%;
-  margin: 0 auto;
-
-}
-
 #jumbotron .jumboleft {
 
   width: 50%;
@@ -269,7 +253,7 @@ header {
   width: 100%;
 
   
-  height: 600px;
+  /* height: 600px; */
   border: 1px solid black;
 
 }
@@ -280,10 +264,31 @@ header {
   width: 100%;
 
   
-  height: 600px;
+  /* height: 600px; */
   border: 1px solid black;
 
 }
+
+.teams-group,
+.teams-single {
+
+  width: calc(100% / 3);
+  height: calc(100vw / 3);
+  background-color: aquamarine;
+  border: 1px solid black;
+  flex-wrap: wrap;
+
+}
+
+#teams .teams-col {
+
+  width: 50%;
+  height: 50%;
+
+  border: 1px solid white;
+
+}
+
 
 /*CALLTOACTION*/
 #calltoaction {
