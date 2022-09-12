@@ -131,8 +131,11 @@ header {
 
   height: 100px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  /* background-color: aquamarine; */
+  background-color: white;
 
 }
 
@@ -145,12 +148,21 @@ header {
 
 }
 
+header a {
+
+  text-decoration: none;
+  color: inherit;
+  padding: 0 1em;
+  font-size: 2rem;
+
+}
+
 
 /*JUMBOTRON*/
 #jumbotron {
 
   width: 100%;
-
+  padding-top: 14em;
   background-color: #b4d0e7;
   /* height: 600px; */
   border: 1px solid black;
@@ -160,7 +172,7 @@ header {
 
   width: 50%;
 
-  height: 300px;
+  
   /* background-color: blueviolet; */
   border: 1px solid black;
 
@@ -170,7 +182,7 @@ header {
 
   width: 50%;
 
-  height: 300px;
+  
   /* background-color: grey; */
   border: 1px solid black;
 
@@ -216,8 +228,9 @@ header {
 
   width: 50%;
 
-  height: 300px;
+  
   /* background-color: blueviolet; */
+  border: 1px solid black;
 
 }
 
@@ -225,8 +238,9 @@ header {
 
   width: 50%;
 
-  height: 300px;
+  
   /* background-color: grey; */
+  border: 1px solid black;
 
 }
 
@@ -245,7 +259,7 @@ header {
 #operations .col {
 
   width: calc(100% / 3);
-  height: 200px;
+  min-height: 200px; 
   border: 1px solid black;
 
 }
