@@ -90,11 +90,134 @@ p {
 }
 
 
-/*COMMON*/
-.container {
+/*CONTAINER*/
+.container,
+.container-inside {
 
   width: 80%;
   margin: 0 auto;
-  max-width: 1200px;
+
+  background-color: blue;
+  min-height: 100px;
 
 }
+
+.container-inside {
+
+  width: 80%;
+  background-color: red;
+  min-height: 100px;
+
+}
+
+/*HEADER*/
+header {
+
+  height: 100px;
+  width: 100%;
+
+  background-color: aquamarine;
+
+}
+
+
+/*JUMBOTRON*/
+#jumbotron {
+
+  width: 100%;
+
+  background-color: #b4d0e7;
+  height: 600px;
+  border: 1px solid black;
+}
+
+/*PRICE*/
+
+#price {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+
+/* PARTNER */
+#partner {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+}
+
+/* OPERATIONS */
+
+#operations {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+/* CLIENTS */
+#clients {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+/*TEAMS*/
+#teams {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+/*CALLTOACTION*/
+#calltoaction {
+
+  width: 100%;
+
+  background-color: #b4d0e7;
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+/*FAQ*/
+#faq {
+
+  width: 100%;
+
+  
+  height: 600px;
+  border: 1px solid black;
+
+}
+
+/* FOOTER */
+footer {
+
+  height: 600px;
+  width: 100%;
+
+  background-color: black;
+
+
+}
+
