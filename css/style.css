@@ -1,0 +1,100 @@
+/*RESET*/
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*HTML*/
+html {
+
+  font-size: 62.5%; /*Per avere 10px in proporzione al font base (16px : 100% = 10px : x%)*/
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*CLEARFIX PER ELEMENTI FLOAT*/
+.clearfix::after {
+
+  content:"";
+  clear: both;
+  display: table;
+  
+}
+
+/*AMPIEZZA IMMAGINE AL 100% DEL CONTENITORE*/
+img {
+
+  max-width: 100%;
+
+}
+
+/*TEST RULE*/
+p {
+
+  color: red;
+
+}
+
+/*FLEX PARTS*/
+.display-flex {
+
+  display: flex;
+
+}
+
+.align-items-center {
+
+  align-items: center;
+
+}
+
+/*POSITION PARTS*/
+.position-absolute {
+
+  position: absolute;
+
+}
+
+.position-relative {
+
+  position: relative;
+
+}
+
+/* TYPOGRAPHY */
+.font-size-10 {
+
+  font-size: 1rem;
+
+}
+
+.font-size-20 {
+
+  font-size: 2rem;
+
+}
+
+.font-size-30 {
+
+  font-size: 3rem;
+
+}
+
+.font-size-25 {
+
+  font-size: 2.5rem;
+
+}
+
+
+/*COMMON*/
+.content {
+
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+}
