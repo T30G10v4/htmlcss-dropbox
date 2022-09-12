@@ -151,8 +151,35 @@ header {
   width: 100%;
 
   background-color: #b4d0e7;
-  height: 600px;
+  /* height: 600px; */
   border: 1px solid black;
+}
+
+#jumbotron .title {
+
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: black;
+
+}
+
+#jumbotron .jumboleft {
+
+  width: 48%;
+
+  height: 300px;
+  background-color: blueviolet;
+
+}
+
+#jumbotron .jumboright {
+
+  width: 48%;
+
+  height: 300px;
+  background-color: grey;
+
 }
 
 /*PRICE*/
