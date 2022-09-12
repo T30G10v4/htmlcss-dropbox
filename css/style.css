@@ -32,11 +32,11 @@ img {
 }
 
 /*TEST RULE*/
-p {
+/* p {
 
   color: red;
 
-}
+} */
 
 /*FLEX PARTS*/
 .display-flex {
@@ -105,7 +105,7 @@ p {
   width: 80%;
   margin: 0 auto;
 
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 100px;
 
 }
@@ -113,7 +113,7 @@ p {
 .container-inside {
 
   width: 80%;
-  background-color: red;
+  /* background-color: red; */
   min-height: 100px;
 
 }
@@ -132,7 +132,7 @@ header {
   height: 100px;
   width: 100%;
 
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 
 }
 
@@ -161,7 +161,8 @@ header {
   width: 50%;
 
   height: 300px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  border: 1px solid black;
 
 }
 
@@ -170,7 +171,8 @@ header {
   width: 50%;
 
   height: 300px;
-  background-color: grey;
+  /* background-color: grey; */
+  border: 1px solid black;
 
 }
 
@@ -215,7 +217,7 @@ header {
   width: 50%;
 
   height: 300px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 
 }
 
@@ -224,7 +226,7 @@ header {
   width: 50%;
 
   height: 300px;
-  background-color: grey;
+  /* background-color: grey; */
 
 }
 
@@ -275,7 +277,7 @@ header {
 
   width: calc(100% / 3);
   height: calc(100vw / 3);
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   border: 1px solid black;
   flex-wrap: wrap;
 
@@ -286,7 +288,7 @@ header {
   width: 50%;
   height: 50%;
 
-  border: 1px solid white;
+  border: 1px solid black;
 
 }
 
@@ -338,8 +340,8 @@ footer .col {
   width: calc(100% / 5);
   height: 200px;
 
-  background-color: blueviolet;
-  border: 1px solid black;
+  /* background-color: blueviolet; */
+  border: 1px solid white;
 
 }
 
@@ -348,7 +350,7 @@ footer .bottom-footer {
   width: 100%;
 
   height: 100px;
-  border: 1px solid black;
-  background-color: blueviolet;
+  border: 1px solid white;
+  /* background-color: blueviolet; */
 
 }
