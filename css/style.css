@@ -490,11 +490,7 @@ header ul:last-child {
 #teams {
 
   width: 100%;
-
   vertical-align: middle;
-  
-  /* height: 600px; */
-  border: 1px solid black;
 
 }
 
@@ -503,9 +499,13 @@ header ul:last-child {
 
   width: calc(100% / 3);
   height: calc(100vw / 3);
-  /* background-color: aquamarine; */
-  border: 1px solid black;
   flex-wrap: wrap;
+
+}
+
+#teams .teams-single {
+
+  padding: 2em;
 
 }
 
@@ -514,9 +514,11 @@ header ul:last-child {
   width: 50%;
   height: 50%;
 
-  border: 1px solid black;
+}
 
-  
+#teams .border-green {
+
+  border: 10px solid #d1e9cd
 
 }
 
@@ -524,6 +526,14 @@ header ul:last-child {
 
   display: block;
   margin: auto 0;
+  transform: scale(0.7);
+  
+}
+
+#teams p {
+
+  font-size: 2rem;
+  margin: 2em 0;
 
 }
 
@@ -536,6 +546,26 @@ header ul:last-child {
   /* height: 600px; */
   border: 1px solid black;
 
+}
+
+#calltoaction h2 {
+
+  width: 54%;
+  font-size: 4rem;
+  color: #61082b;
+  margin: 6rem 0;
+
+}
+
+#calltoaction a {
+
+  font-size: 2rem;
+  text-decoration: none;
+  border: 1px solid #d0d0d3;
+  padding: .8rem;
+  color: inherit;
+  background-color: white;
+  margin: 6rem 0;
 }
 
 /*FAQ*/
