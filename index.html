@@ -8,6 +8,12 @@
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
+  <!-- FONT OPEN SANS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -87,11 +93,49 @@
       <div id="price">
 
         <h2>Trova il piano buisness che fa per te</h2>
-        <div class="radiobuttons"><input type="radio" name="price-check" id=""><input type="radio" name="price-check" id=""></div>
+
+        <div class="radiobuttons display-flex align-items-center">
+          <input type="radio" name="price-check" id="price-1">
+          <label for="price-1">Fatturazione mensile</label>
+          <input type="radio" name="price-check" id="price-2">
+          <label for="price-2">Fatturazione annuale</label>
+        </div>
+
         <div class="cards display-flex justify-content-space-between">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <div class="card">
+
+              <div class="card-title"><span class="fa-sharp fa-solid fa-user">Singolo</span></div>
+              <div class="card-main">
+
+                <h3>Professional</h3>
+                <p>€ 12.00</p>
+                <p>/mese</p>
+
+                <ul>
+
+                  <li>1 utente</li>
+                  <li>5 TB di spazio di archiviazione sicuro</li>
+                  <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+
+                </ul>
+
+                <div class="blue-link"><a href="#">Prova gratis per 30 giorni</a></div>
+
+                <span>oppure </span><a href="#">acquista ora</a>
+
+              </div>
+            
+          </div>
+          <div class="card">
+
+            <div class="card-title"><span class="fa-sharp fa-solid fa-users">Team</span></div>
+            <i class=""></i>
+
+          </div>
+          <div class="card">
+
+            <div class="card-title"><span class="fa-sharp fa-solid fa-building">Azienda</span></div>
+          </div>
         </div>
         <div class="big-card">
         </div>
@@ -100,12 +144,20 @@
       <!-- /PRICE -->
 
       <!-- PARTNER -->
-      <div id="partner" class="display-flex">
+      <div id="partner" class="display-flex justify-content-space-between">
 
         <div class="partner-left">
           <img src="img/partner.png" alt="">
         </div>
-        <div class="partner-right"></div>
+        <div class="partner-right">
+
+          <h2>Entra in contatto con un partner Dropbox</h2>
+
+          <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui un'implementazione, integrazione, gestione e supporto continui.</p>
+
+          <span><a href="#">Trova un Partner</a></span>
+
+        </div>
 
       </div>
       <!-- /PARTNER -->

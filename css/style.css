@@ -105,7 +105,16 @@ img {
   background-color: #0061ff;
   color: white;
   padding: .4em;
-  margin-right: 1em;
+  
+  /* margin-right: 1em; */
+
+}
+
+.blue-link a {
+
+  text-decoration: none;
+  color: white;
+  
 
 }
 
@@ -205,7 +214,7 @@ header {
   z-index: 999;
   top: 0;
   left: 0;
-
+  border-bottom: 1px solid #d0d0d3;
   background-color: white;
 
 }
@@ -225,6 +234,12 @@ header a {
   color: inherit;
   padding: 0 1em;
   font-size: 2rem;
+
+}
+
+header ul:last-child {
+
+  margin-right: 1em;
 
 }
 
@@ -298,18 +313,67 @@ header a {
 
 }
 
+#price h2 {
+
+  font-size: 4rem;
+  margin: 1.8em 0 .8em;
+
+}
+
+#price .radiobuttons {
+
+  font-size: 1.6rem;
+  margin-bottom: 2em;
+
+}
+
+#price input {
+
+  margin-right: .2em;
+
+}
+
+#price label {
+
+  margin-right: 2em;
+
+}
+
 #price .card {
 
   height: 300px;
   width: calc(100% / 3 - 20px);
-  border: 1px solid black;
+  border: 1px solid #d0d0d3;
+
+}
+
+#price .card-title {
+
+  text-align: center;
+  border-bottom: 1px solid #d0d0d3;
+  padding: 1em 0;
+
+}
+
+
+
+#price .card-main {
+
+  padding: 1.4em;
+  font-size: 1.6rem;
+
+}
+
+#price .card-main .blue-link {
+
+  text-align: center;
 
 }
 
 #price .big-card {
 
   height: 300px;
-  border: 1px solid black;
+  border: 1px solid #d0d0d3;
 
 }
 
@@ -320,27 +384,48 @@ header a {
   width: 100%;
 
   
-  /* height: 600px; */
-  border: 1px solid black;
+  
 }
 
 #partner .partner-left {
 
-  width: 50%;
+  width: 54%;
 
   
-  /* background-color: blueviolet; */
-  border: 1px solid black;
+
 
 }
 
 #partner .partner-right {
 
-  width: 50%;
-
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   
-  /* background-color: grey; */
-  border: 1px solid black;
+  
+
+}
+
+#partner .partner-right h2 {
+
+  font-size: 2.8rem;
+
+}
+
+#partner .partner-right p {
+
+  font-size: 2rem;
+
+}
+
+#partner .partner-right a {
+
+  font-size: 2rem;
+  text-decoration: none;
+  border: 1px solid #d0d0d3;
+  padding: .8rem;
+  color: inherit;
 
 }
 
