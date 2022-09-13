@@ -98,6 +98,18 @@ img {
 
 /*------------------------------------------------PARTE SPECIFICA----------------------------------------------------*/
 
+/*BUTTONS*/
+
+.blue-link {
+
+  background-color: #0061ff;
+  color: white;
+  padding: .4em;
+  margin-right: 1em;
+
+}
+
+
 /*COLORS*/
 .bg-a2d39b {
 
@@ -159,6 +171,7 @@ img {
 
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 
   /* background-color: blue; */
   min-height: 100px;
@@ -168,6 +181,8 @@ img {
 .container-inside {
 
   width: 80%;
+  max-width: 1000px;
+
   /* background-color: red; */
   min-height: 100px;
 
@@ -227,26 +242,49 @@ header a {
 #jumbotron h1 {
 
   font-size: 9rem;
+  margin-bottom: .6em;
 
 }
 
 #jumbotron .jumboleft {
 
-  width: 50%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
 
   
   /* background-color: blueviolet; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
+
+}
+
+#jumbotron a {
+
+  text-decoration: none;
+
+}
+
+#jumbotron i {
+
+  font-size: 5rem;
 
 }
 
 #jumbotron .jumboright {
 
-  width: 50%;
-
+  width: 70%;
+  
   
   /* background-color: grey; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
+
+}
+
+.jumbo-padding {
+
+  padding: 2em;
 
 }
 
