@@ -383,7 +383,7 @@ header ul:last-child {
 
   width: 100%;
 
-  
+  margin-bottom: 8em;
   
 }
 
@@ -435,17 +435,33 @@ header ul:last-child {
 
   width: 100%;
 
-  
-  /* height: 600px; */
-  border: 1px solid black;
-
 }
+
+#operations h2 {
+
+  font-size: 4rem;
+  margin-bottom: 1em;
+}
+
+#operations h3 {
+
+  font-size: 2.8rem;
+  margin-bottom: 1em;
+}
+
 
 #operations .col {
 
-  width: calc(100% / 3);
+  width: 30%;
   min-height: 200px; 
-  border: 1px solid black;
+
+ 
+
+}
+
+#operations p {
+
+  font-size: 2rem;
 
 }
 
@@ -453,10 +469,20 @@ header ul:last-child {
 #clients {
 
   width: 100%;
+  margin: 8em 0;
 
-  
-  /* height: 600px; */
-  border: 1px solid black;
+}
+
+#clients h2 {
+
+  font-size: 4rem;
+  margin-bottom: 1em;
+  width: 54%;
+}
+
+#clients a {
+
+  font-size: 2rem;
 
 }
 
