@@ -670,11 +670,30 @@ header ul:last-child {
 
 }
 
+ .fa-angle-up {
+
+  display: none;
+
+ }
+
 .question-content:hover .answer {
 
   display: block;
 
 }
+
+.question-content:hover .fa-angle-down {
+
+  display: none;
+  
+}
+
+.question-content:hover .fa-angle-up {
+
+  display: block;
+  
+}
+
 
 #faq:last-child {
 
