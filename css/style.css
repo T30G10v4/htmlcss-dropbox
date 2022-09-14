@@ -51,6 +51,12 @@ img {
 
 }
 
+.align-items-start {
+
+  align-items: flex-start;
+
+}
+
 .justify-content-space-between
 {
 
@@ -120,6 +126,13 @@ img {
 
 
 /*COLORS*/
+
+.color-primary {
+
+  color: #0061ff;
+
+}
+
 .bg-a2d39b {
 
   background-color: #a2d39b;
@@ -250,8 +263,7 @@ header ul:last-child {
   width: 100%;
   padding-top: 14em;
   background-color: #b4d0e7;
-  /* height: 600px; */
-  border: 1px solid black;
+  
 }
 
 #jumbotron h1 {
@@ -268,10 +280,6 @@ header ul:last-child {
   flex-direction: column;
   justify-content: space-between;
   font-size: 2rem;
-
-  
-  /* background-color: blueviolet; */
-  /* border: 1px solid black; */
 
 }
 
@@ -290,11 +298,7 @@ header ul:last-child {
 #jumbotron .jumboright {
 
   width: 70%;
-  
-  
-  /* background-color: grey; */
-  /* border: 1px solid black; */
-
+ 
 }
 
 .jumbo-padding {
@@ -308,8 +312,6 @@ header ul:last-child {
 #price {
 
   width: 100%;
-  
-  border: 1px solid black;
 
 }
 
@@ -341,7 +343,6 @@ header ul:last-child {
 
 #price .card {
 
-  height: 300px;
   width: calc(100% / 3 - 20px);
   border: 1px solid #d0d0d3;
 
@@ -364,16 +365,54 @@ header ul:last-child {
 
 }
 
+#price .card-main > * {
+
+  margin-bottom: 1em;
+
+}
+
+#price .card-main li {
+
+  margin-bottom: 1em;
+
+}
+
+#price .card-main hr {
+
+  margin-top: 1em;
+
+}
+
+
 #price .card-main .blue-link {
 
   text-align: center;
 
 }
 
+#price hr {
+
+  width: 20%;
+
+}
+
 #price .big-card {
 
-  height: 300px;
   border: 1px solid #d0d0d3;
+  margin-top: 3em;
+  margin-bottom: 6em;
+
+}
+
+#price .big-card .card-left {
+
+  width: 63%;
+
+}
+
+#price .big-card .card-right {
+
+  width: 27%;
 
 }
 
@@ -543,8 +582,7 @@ header ul:last-child {
   width: 100%;
 
   background-color: #b4d0e7;
-  /* height: 600px; */
-  border: 1px solid black;
+  
 
 }
 
