@@ -661,17 +661,18 @@ header ul:last-child {
 
 }
 
-.question:hover .answer {
 
-  display: static;
-
-}
-
-#faq .answer {
+.answer {
 
   font-size: 1.6rem;
   margin-bottom: 2em;
   display: none;
+
+}
+
+.question-content:hover .answer {
+
+  display: block;
 
 }
 
