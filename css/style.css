@@ -670,7 +670,7 @@ header ul:last-child {
 
 }
 
- .fa-angle-up {
+.fa-angle-up {
 
   display: none;
 
@@ -774,5 +774,6 @@ footer .bottom-footer span {
 footer .bottom-footer .fa-angle-up {
 
   margin-left: .5em;
+  display: block;
 
 }
