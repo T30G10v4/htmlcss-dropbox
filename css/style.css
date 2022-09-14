@@ -124,6 +124,12 @@ img {
 
 }
 
+.blue-link:hover {
+
+  background-color: #0093ce;
+
+}
+
 
 /*COLORS*/
 
@@ -210,6 +216,12 @@ img {
 
 }
 
+.container.position-relative {
+
+  top: 30px;
+
+}
+
 /*LISTS*/
 
 ul {
@@ -258,6 +270,13 @@ header ul:last-child {
 
 
 /*JUMBOTRON*/
+
+.m-btm-1em {
+
+  margin-bottom: 2em;
+
+}
+
 #jumbotron {
 
   width: 100%;
@@ -276,10 +295,14 @@ header ul:last-child {
 #jumbotron .jumboleft {
 
   width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  
   font-size: 2rem;
+
+}
+
+#jumbotron .jumboleft span {
+
+  display: inline-block;
 
 }
 
@@ -292,6 +315,7 @@ header ul:last-child {
 #jumbotron i {
 
   font-size: 5rem;
+ 
 
 }
 
@@ -576,6 +600,13 @@ header ul:last-child {
 
 }
 
+#teams .img-bianca {
+
+  filter: invert();
+  
+
+}
+
 /*CALLTOACTION*/
 #calltoaction {
 
@@ -630,6 +661,20 @@ header ul:last-child {
 
 }
 
+.question:hover .answer {
+
+  display: static;
+
+}
+
+#faq .answer {
+
+  font-size: 1.6rem;
+  margin-bottom: 2em;
+  display: none;
+
+}
+
 #faq:last-child {
 
   border-bottom: 1px solid #999999;
@@ -645,7 +690,7 @@ header ul:last-child {
 /* FOOTER */
 footer {
 
-  /* height: 600px; */
+  
   width: 100%;
   color: white;
   background-color: black;
@@ -658,9 +703,6 @@ footer .col {
 
   width: calc(100% / 5);
   height: 200px;
-
-  /* background-color: blueviolet; */
-  /* border: 1px solid white; */
 
 }
 
@@ -690,11 +732,8 @@ footer .separator {
 footer .bottom-footer {
 
   width: 100%;
-  height: 100px;
-  
+  height: 100px;  
   padding: 4em 0;
-
-  
 
 }
 
